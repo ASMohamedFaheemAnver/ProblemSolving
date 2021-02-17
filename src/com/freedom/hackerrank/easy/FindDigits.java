@@ -1,9 +1,7 @@
 package com.freedom.hackerrank.easy;
-
 import java.util.Scanner;
 
 public class FindDigits {
-
     static int findDigits(int n) {
         String sN = String.valueOf(n);
         int divisors = 0;
