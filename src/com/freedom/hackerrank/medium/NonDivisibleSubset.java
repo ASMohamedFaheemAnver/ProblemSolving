@@ -1,4 +1,4 @@
-package com.freedom.hackerrank.easy;
+package com.freedom.hackerrank.medium;
 
 import java.util.Scanner;
 
