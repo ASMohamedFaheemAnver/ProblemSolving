@@ -12,9 +12,7 @@ public class OrganizingContainersOfBalls {
         for (int i = 0; i<n; i++){
             for (int j = 0; j<n; j++){
                 containerCapacity[i] += container[i][j];
-            }
-            for (int x = 0; x<n; x++){
-                totalBall[i] += container[x][i];
+                totalBall[i] += container[j][i];
             }
         }
 
